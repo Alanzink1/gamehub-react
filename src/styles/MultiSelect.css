@@ -1,0 +1,36 @@
+.multi-select {
+  position: relative;
+  display: inline-block;
+}
+
+.multi-select-btn {
+  background-color: var(--secondaryBackground);
+  color: var(--text);
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.multi-select-dropdown {
+  display: none;
+  position: absolute;
+  background-color: var(--background);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  color: var(--text);
+}
+
+.multi-select:hover .multi-select-dropdown {
+  display: block;
+}
+
+.multi-select-option {
+  display: block;
+  padding: 8px;
+}
+
+.multi-select-option input {
+  margin-right: 10px;
+}

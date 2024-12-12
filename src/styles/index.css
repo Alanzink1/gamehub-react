@@ -1,0 +1,31 @@
+:root {
+  --background-dark: #111111;
+  --secondaryBackground-dark: #181818;
+  --tertiaryBackground-dark: #141414;
+  --text-dark: #E9E7E8;
+
+  --background-light: #FFFFFF;
+  --secondaryBackground-light: #F0F0F0;
+  --tertiaryBackground-light: #E0E0E0;
+  --text-light: #000000;
+
+  --background: var(--background-dark);
+  --secondaryBackground: var(--secondaryBackground-dark);
+  --tertiaryBackground: var(--tertiaryBackground-dark);
+  --text: var(--text-dark);
+}
+
+body {
+  background-color: var(--background) !important;
+  color: var(--text) !important;
+}
+
+.navbar-dark .navbar-brand, .navbar-dark .navbar-nav .nav-link {
+  color: var(--text) !important;
+}
+
+.form-select {
+  background-color: var(--secondaryBackground) !important;
+  color: var(--text) !important;
+  border-color: var(--tertiaryBackground) !important;
+}

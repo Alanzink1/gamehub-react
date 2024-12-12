@@ -1,0 +1,21 @@
+aside {
+  margin-left: 3vh;
+  width: 180px;
+}
+
+.title-aside {
+  margin: 5vh 0 2vh 0;
+  color: var(--text);
+}
+
+.img-category {
+  width: 50px;
+  height: 50px;
+  border-radius: 16px;
+  margin: 1vh;
+}
+
+.pointer {
+  cursor: pointer;
+  color: var(--text);
+}
